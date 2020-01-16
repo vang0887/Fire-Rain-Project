@@ -22,17 +22,39 @@ def home():
     # Find one record of data from the mongo database
     caliFires = mongo.db.collection.find_one()
 
+    print(caliFires)
     # Return template and data
+<<<<<<< Updated upstream
     return render_template("index.html", caliFires=caliFires)
+=======
+    webpage = render_template("scrape.html", caliFires=caliFires)
+    return webpage
+>>>>>>> Stashed changes
 
 
 # Route that will trigger the scrape function
-@app.route("/scrape")
+# @app.route("/scrape")
+# def scrape():
+#     caliFires = mongo.db.caliFires
+#     caliData = main.scrape()
+#     mongo.db.collection.update({}, caliData, upsert=True)
+#     return redirect("/")
+
+@app.route("/table")
 def scrape():
+<<<<<<< Updated upstream
     caliFires1 = mongo.db.califires
     caliData = main.scrape_all()
     mongo.db.collection.update({}, caliData, upsert=True)
     return redirect("/")
+=======
+    caliFires = mongo.db.caliFires
+    # caliData = main.scrape()
+    # print(caliData.camp_headline)
+    mongo.db.collection.update({}, caliData, upsert=True)
+    webpage = render_template("table.html", caliFires=caliFires)
+    return webpage
+>>>>>>> Stashed changes
 
 if __name__ == "__main__":
     app.run(debug=True)

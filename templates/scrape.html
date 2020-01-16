@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wild Fires</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head> 
+<body class="text-white" style="background-color: rgb(117, 117, 117);">
+    <div class="container">
+        
+        <div class="jumbotron text-center" style="background-image: url(https://cdn.britannica.com/s:700x500/90/191790-050-092C8C2A/Wildfire-Stanislaus-National-Forest-California-2013.jpg); height: 500px; background-position: center; background-size: cover;">
+            <h1 class="display-3"><b>California Wild Fires</b></h1>
+            <p><a class="btn btn-secondary btn-lg" href="/scrape" role="button">Get Data!</a></p>
+        </div>
+        <!-- Cali Wild Fire News -->
+        <div class="container">
+            <div class="row" id="Califire-news">
+                <div class="media">
+                    <div class="media-body">
+                        <!-- <h4>The Largest Wildfire in California</h4> -->
+                        <p style="color: rgb(241, 193, 34)">{{caliFires.intro_para}}</p>
+              
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <div class="container">
+          <div class="row" id="Cali Wild Fire image">
+              <div class="col-lg-8 col-md-8 col-sm-12">
+              <!-- <h4>Largest Wildfire - Mendocino Complex Fire</h4> -->
+              <img src="https://i2.wp.com/www.mercurynews.com/wp-content/uploads/2019/10/Mendocino-Complex-1.jpg?fit=620%2C9999px&ssl=1" class="img-responsive"
+              alt="featured image" width="200">
+              
+                 
+                  <!-- <img src="{{caliFires.featured_image | default('static/images/error.png', true) }}" class="img-responsive" style="max-width:100%; max-height: auto;" alt="Cali Wild Fires Image"/> -->
+              </div>
+              <!-- Cali Weather -->
+              <div class="col-lg-4 col-md-4 col-sm-12" id="cali-weather">
+                  <div class="card" style="max-width: 18rem;">
+                      <div class="card-body text-white bg-dark">
+                          <h4 class="card-title">The Largest Wildfire in California</h4>
+                          <p style="color: rgb(241, 193, 34)">{{caliFires.mendo_para}}</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-12" id="cali-weather">
+                <div class="card" style="max-width: 18rem;">
+                    <div class="card-body text-white bg-dark">
+                        <h4 class="card-title">Camp Fire is deadliest wildfire in California history</h4>
+                        <p style="color: rgb(241, 193, 34)">The death toll in Northern California's Camp Fire reached historic levels after the blaze devastated Butte County in November 2018. The fire has killed 86 people, the most in a single blaze in state history, and at one point left nearly 500 people unaccounted for</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+              <!-- <h4>Deadliest Wildfire - Camp Fire</h4> -->
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Camp_Fire_oli_2018312_Landsat.jpg/1280px-Camp_Fire_oli_2018312_Landsat.jpg" class="img-responsive"
+              alt="featured image">
+            
+              </div>
+               <!-- California Wildfire Facts -->
+               <br>
+               <!-- <div class="row">
+                   <div class="col-md-12">
+                       <h4>California Wildfire Facts</h4>
+                        {{caliFires.fire_table_html | safe}}
+                   </div>
+               </div> -->
+          </div>
+      </div>
+​
+​
+    <!-- Bootstrap JavaScript -->
+    <!-- jQuery, Popper.js & Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
