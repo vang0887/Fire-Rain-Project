@@ -24,7 +24,7 @@ Base = automap_base()
 
 Base.prepare(engine, reflect = True)
 
-# Rainfall = Base.classes.rainfall
+Rainfall = Base.classes.rainfall
 WildFire = Base.classes.largestfires
 #################################################
 # Flask Setup
@@ -65,6 +65,28 @@ def fire_name():
         all_fires.append(fire_dict)
 
     return jsonify(all_fires)
+
+@app.route("/api/v1.0/rainfire")
+def firerain():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    # Query all passengers
+    results = session.query(Rainfall.reading ,Rainfall.rainfall, Rainfall.firename, Rainfall.county).all()
+
+    session.close()
+
+    # Create a dictionary from the row data and append to a list of all_passengers
+    all_rainfire = []
+    for reading,rainfall,firename,county in results:
+        rainfire_dict = {}
+        rainfire_dict["reading"] = reading
+        rainfire_dict["rainfall"] = rainfall
+        rainfire_dict["firename"] = firename
+        rainfire_dict["county"] = county
+        all_rainfire.append(rainfire_dict)
+
+    return jsonify(all_rainfire)
 
 @app.route("/table")
 def table():
