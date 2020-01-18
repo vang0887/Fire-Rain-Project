@@ -5,6 +5,7 @@ from flask import Flask, render_template, redirect
 import numpy as np
 import pandas as pd
 import sqlalchemy
+
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
@@ -17,14 +18,14 @@ database_name = 'CAWildfire_db'
 username = 'postgres'
 password = 'postgres'
 
-engine = create_engine(f'postgressql://{username}:{password}@localhost:5432/{database_name}')
+engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/{database_name}')
 
 Base = automap_base()
 
 Base.prepare(engine, reflect = True)
 
 # Rainfall = Base.classes.rainfall
-WildFire = Base.classes.firesummary
+WildFire = Base.classes.largestfires
 #################################################
 # Flask Setup
 #################################################
@@ -39,27 +40,28 @@ def home():
     return webpage
 
 
-@app.route("/api/v1.0/rain")
+@app.route("/api/v1.0/fire")
 def fire_name():
     # Create our session (link) from Python to the DB
     session = Session(engine)
 
     # Query all passengers
-    results = session.query(WildFire.fire_name, WildFire.county, WildFire.acres, WildFire.hectares, WildFire.structures, WildFire.deaths).all()
+    results = session.query(WildFire.index ,WildFire.firename, WildFire.county, WildFire.acres, WildFire.hectares,WildFire.startdate, WildFire.structures, WildFire.deaths).all()
 
     session.close()
 
     # Create a dictionary from the row data and append to a list of all_passengers
     all_fires = []
-    for fire_name, county, acres, hectares, structures, deaths  in results:
+    for index, firename, county, acres, hectares,startdate, structures, deaths  in results:
         fire_dict = {}
-        all_fires["fire_name"] = fire_name
-        all_fires["county"] = county
-        all_fires["acres"] = acres
-        all_fires["hectares"] = hectares
-        # all_fires["start-date"] = start-date
-        all_fires["structures"] = structures
-        all_fires["deaths"] = deaths
+        fire_dict["index"] = index
+        fire_dict["firename"] = firename
+        fire_dict["county"] = county
+        fire_dict["acres"] = acres
+        fire_dict["hectares"] = hectares
+        fire_dict["startdate"] = startdate
+        fire_dict["structures"] = structures
+        fire_dict["deaths"] = deaths
         all_fires.append(fire_dict)
 
     return jsonify(all_fires)
@@ -76,10 +78,6 @@ def leafletmap():
 
 @app.route("/scatter")
 def scatter():
-    # caliFires = mongo.db.caliFires
-    # # caliData = main.scrape()
-    # # print(caliData.camp_headline)
-    # mongo.db.collection.update({}, caliData, upsert=True)
     webpage = render_template("scatter.html")
     return webpage
 @app.route("/bubble")
