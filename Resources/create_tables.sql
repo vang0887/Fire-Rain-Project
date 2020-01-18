@@ -1,5 +1,6 @@
 -- Create fire_summary table
-CREATE TABLE fire_summary (
+-- use Largest CA Wildfires from Resources folder
+CREATE TABLE firesummary (
   fire_name VARCHAR(30),
   county VARCHAR(30),
   acres int,
@@ -9,7 +10,9 @@ CREATE TABLE fire_summary (
   deaths int
 );
 
+
 -- Create rainfall table 
+-- use Combined CA Wildfires from Resources folder
 CREATE TABLE rainfall (
   reading date,
   rainfall float,
@@ -19,7 +22,7 @@ CREATE TABLE rainfall (
 
 -- Query all fields from the table
 SELECT *
-FROM fire_summary;
+FROM firesummary;
 
 -- Query all fields from the table
 SELECT *
