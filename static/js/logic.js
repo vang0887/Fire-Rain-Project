@@ -1,7 +1,6 @@
 // Store our API endpoint inside queryUrl
 //fires over 1,000 acres
-var queryUrl = "https://opendata.arcgis.com/datasets/847db1a51b0c4bb0a3663bcbce32ccb1_63.geojson?where=ACRES%20%3E%3D%2040000%20AND%20ACRES%20%3C%3D%201183539";
-  
+var queryUrl = "https://opendata.arcgis.com/datasets/e4d020cb51304d5194860d4464da7ba7_0.geojson?where=UPPER(FIPS_NAME)%20like%20'%25CEDAR%25'"
 // Perform a GET request to the query URL
 d3.json(queryUrl, function(data) {
   // Once we get a response, send the data.features object to the createFeatures function

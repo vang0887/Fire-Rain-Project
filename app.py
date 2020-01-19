@@ -1,28 +1,29 @@
-from flask import Flask, render_template, redirect
-
-# from flask_pymongo import PyMongo
+from flask import Flask, jsonify, render_template, redirect
 # import main
 import numpy as np
 import pandas as pd
 import sqlalchemy
-
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-from flask import Flask, jsonify
-
 
 
 ## Database Setup
-database_name = 'CAWildfire_db'
-username = 'postgres'
-password = 'postgres'
+# database_name = 'CAWildfire_db'
+# username = 'postgres'
+# password = 'postgres'
 
-engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/{database_name}')
+# engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/{database_name}')
+
+
+rds_connection_string = "ryanporrit:Helios007()@localhost:5432/CAWildfire_db"
+engine = create_engine(f'postgresql://{rds_connection_string}')
 
 Base = automap_base()
-
 Base.prepare(engine, reflect = True)
+
+## Table Variable Creation
+yearRainfall = Base.classes.year_rainfall
 
 Rainfall = Base.classes.rainfall
 WildFire = Base.classes.largestfires
@@ -39,8 +40,50 @@ def home():
     webpage = render_template("index.html")
     return webpage
 
+@app.route("/json")
+def json():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+    """Return a list of all counties"""
+    # Query data
+    dates = session.query(yearRainfall.reading).all()
+    rainfall = session.query(yearRainfall.rainfall).all()
+    counties = session.query(yearRainfall.county).all()
+    fireNames = session.query(yearRainfall.fire_name).all()
+    session.close()
 
-@app.route("/api/v1.0/fire")
+    # Convert list of tuples into normal list
+    all_counties = list(np.ravel(counties))
+    all_fireNames = list(np.ravel(fireNames))
+    all_rainfall = list(np.ravel(rainfall))
+    all_dates = list(np.ravel(dates))
+
+    #data = [all_counties, all_rainfall, all_dates]
+    year_rainfall = {"county":all_counties, "fire": all_fireNames,"rainfall":all_rainfall, "date":all_dates}
+
+    #return jsonify("counties":all_counties, "rainfall":all_rainfall, "dates":all_dates)
+
+    return year_rainfall
+
+@app.route("/geomap")
+def map():
+
+    # Find one record of data from the mongo database
+    #destination_data = mongo.db.collection.find_one()
+
+    # Return template and data
+    return render_template("geomap.html")
+
+@app.route("/acres")
+def acres():
+
+    # Find one record of data from the mongo database
+    #destination_data = mongo.db.collection.find_one()
+
+    # Return template and data
+    return render_template("acres.html")
+
+@app.route("/wildfireTable")
 def fire_name():
     # Create our session (link) from Python to the DB
     session = Session(engine)
@@ -66,7 +109,7 @@ def fire_name():
 
     return jsonify(all_fires)
 
-@app.route("/api/v1.0/rainfire")
+@app.route("/rainfallTable")
 def firerain():
     # Create our session (link) from Python to the DB
     session = Session(engine)
@@ -102,7 +145,9 @@ def leafletmap():
 def scatter():
     webpage = render_template("scatter.html")
     return webpage
+
 @app.route("/bubble")
+#   return webpage
 
 def bubble():
     webpage = render_template("bubble.html")
