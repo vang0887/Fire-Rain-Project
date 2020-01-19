@@ -9,15 +9,15 @@ from sqlalchemy import create_engine, func
 
 
 ## Database Setup
-# database_name = 'CAWildfire_db'
-# username = 'postgres'
-# password = 'postgres'
+database_name = 'CAWildfire_db'
+username = 'postgres'
+password = 'postgres'
 
-# engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/{database_name}')
+engine = create_engine(f'postgresql://{username}:{password}@localhost:5432/{database_name}')
 
 
-rds_connection_string = "ryanporrit:Helios007()@localhost:5432/CAWildfire_db"
-engine = create_engine(f'postgresql://{rds_connection_string}')
+# rds_connection_string = "ryanporrit:Helios007()@localhost:5432/CAWildfire_db"
+# engine = create_engine(f'postgresql://{rds_connection_string}')
 
 Base = automap_base()
 Base.prepare(engine, reflect = True)
@@ -147,8 +147,6 @@ def scatter():
     return webpage
 
 @app.route("/bubble")
-#   return webpage
-
 def bubble():
     webpage = render_template("bubble.html")
     return webpage
