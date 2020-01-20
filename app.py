@@ -100,7 +100,7 @@ def fire_name():
         fire_dict["index"] = index
         fire_dict["firename"] = firename
         fire_dict["county"] = county
-        fire_dict["acres"] = acres
+        fire_dict["acres"] = acres/9000
         fire_dict["hectares"] = hectares
         fire_dict["startdate"] = startdate
         fire_dict["structures"] = structures
@@ -155,13 +155,5 @@ def facts():
     webpage = render_template("facts.html")
     return webpage
 
-# @app.route("/api/v1.0/shirley")
-# def scrape():
-#     # caliFires = mongo.db.caliFires
-#     # # caliData = main.scrape()
-#     # # print(caliData.camp_headline)
-#     # mongo.db.collection.update({}, caliData, upsert=True)
-#     webpage = render_template("table.html")
-    # return webpage
 if __name__ == "__main__":
     app.run(debug=True)
