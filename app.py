@@ -100,7 +100,7 @@ def fire_name():
         fire_dict["index"] = index
         fire_dict["firename"] = firename
         fire_dict["county"] = county
-        fire_dict["acres"] = acres/9000
+        fire_dict["acres"] = acres
         fire_dict["hectares"] = hectares
         fire_dict["startdate"] = startdate
         fire_dict["structures"] = structures
@@ -109,27 +109,27 @@ def fire_name():
 
     return jsonify(all_fires)
 
-@app.route("/rainfallTable")
-def firerain():
-    # Create our session (link) from Python to the DB
-    session = Session(engine)
+# @app.route("/rainfallTable")
+# def firerain():
+#     # Create our session (link) from Python to the DB
+#     session = Session(engine)
 
-    # Query all passengers
-    results = session.query(Rainfall.reading ,Rainfall.rainfall, Rainfall.firename, Rainfall.county).all()
+#     # Query all passengers
+#     results = session.query(Rainfall.reading ,Rainfall.rainfall, Rainfall.firename, Rainfall.county).all()
 
-    session.close()
+#     session.close()
 
-    # Create a dictionary from the row data and append to a list of all_passengers
-    all_rainfire = []
-    for reading,rainfall,firename,county in results:
-        rainfire_dict = {}
-        rainfire_dict["reading"] = reading
-        rainfire_dict["rainfall"] = rainfall
-        rainfire_dict["firename"] = firename
-        rainfire_dict["county"] = county
-        all_rainfire.append(rainfire_dict)
+#     # Create a dictionary from the row data and append to a list of all_passengers
+#     all_rainfire = []
+#     for reading,rainfall,firename,county in results:
+#         rainfire_dict = {}
+#         rainfire_dict["reading"] = reading
+#         rainfire_dict["rainfall"] = rainfall
+#         rainfire_dict["firename"] = firename
+#         rainfire_dict["county"] = county
+#         all_rainfire.append(rainfire_dict)
 
-    return jsonify(all_rainfire)
+#     return jsonify(all_rainfire)
 
 @app.route("/table")
 def table():
@@ -150,9 +150,9 @@ def scatter():
 def bubble():
     webpage = render_template("bubble.html")
     return webpage
-@app.route("/facts")
+@app.route("/facts1")
 def facts():
-    webpage = render_template("facts.html")
+    webpage = render_template("facts1.html")
     return webpage
 
 if __name__ == "__main__":

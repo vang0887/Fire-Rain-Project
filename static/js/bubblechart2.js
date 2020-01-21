@@ -1,8 +1,8 @@
-d3.json("/wildfireTable").then(function(data){
+
+d3.json("/wildfireTable").then(function (data) {
     console.log(data);
     firenames = data.map(d => d.firename);
     fireacres = data.map(d => d.acres);
-
     dataset = {
         "children": [{"Name":firenames[0],"Acres":fireacres[0]},
             {"Name":firenames[1],"Acres":fireacres[1]},

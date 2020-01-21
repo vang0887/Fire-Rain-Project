@@ -13,7 +13,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 //icon
 var fireIcon = L.icon({
-  iconUrl: '../Resources/iconfinder_flame_1055059.png',
+  iconUrl: 'https://www.belnis.com/wp-content/uploads/2019/09/iconfinder_flame_1055059.png',
   iconSize: [24]
 });
 
@@ -160,6 +160,7 @@ var counties = [{
   start_date: "August, 1999"
 }
 ];
+var fireMarkers = [];
 
 counties.forEach((county) => {
   L.marker(county.location, {icon: fireIcon}).addTo(myMap)
