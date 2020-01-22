@@ -1,209 +1,209 @@
-reading,rainfall,county,fire_name
-2017-09-15,0.06,Mendocino,Mendocino
-2017-09-17,0.07,Mendocino,Mendocino
-2017-10-08,0.07,Mendocino,Mendocino
-2017-10-10,0.08,Mendocino,Mendocino
-2017-10-12,0.07,Mendocino,Mendocino
-2017-10-16,0.07,Mendocino,Mendocino
-2017-10-19,0.09,Mendocino,Mendocino
-2017-10-23,0.13,Mendocino,Mendocino
-2017-10-24,0.12,Mendocino,Mendocino
-2017-10-25,0.08,Mendocino,Mendocino
-2017-10-26,0.13,Mendocino,Mendocino
-2017-10-27,0.1,Mendocino,Mendocino
-2017-10-28,0.23,Mendocino,Mendocino
-2017-10-29,0.27,Mendocino,Mendocino
-2017-10-30,0.14,Mendocino,Mendocino
-2017-10-31,0.09,Mendocino,Mendocino
-2017-11-01,0.09,Mendocino,Mendocino
-2017-11-02,0.13,Mendocino,Mendocino
-2017-11-03,0.08,Mendocino,Mendocino
-2017-11-06,0.17,Mendocino,Mendocino
-2017-11-07,0.2,Mendocino,Mendocino
-2017-11-08,0.24,Mendocino,Mendocino
-2017-11-09,0.2,Mendocino,Mendocino
-2017-11-10,0.31,Mendocino,Mendocino
-2017-11-11,0.16,Mendocino,Mendocino
-2017-11-12,0.16,Mendocino,Mendocino
-2017-11-13,0.19,Mendocino,Mendocino
-2017-11-14,0.06,Mendocino,Mendocino
-2017-11-15,0.21,Mendocino,Mendocino
-2017-11-16,0.36,Mendocino,Mendocino
-2017-11-17,0.37,Mendocino,Mendocino
-2017-11-18,0.15,Mendocino,Mendocino
-2017-11-19,0.24,Mendocino,Mendocino
-2017-11-20,0.2,Mendocino,Mendocino
-2017-11-21,0.19,Mendocino,Mendocino
-2017-11-22,0.17,Mendocino,Mendocino
-2017-11-23,0.25,Mendocino,Mendocino
-2017-11-24,0.27,Mendocino,Mendocino
-2017-11-25,0.15,Mendocino,Mendocino
-2017-11-26,0.09,Mendocino,Mendocino
-2017-11-27,0.16,Mendocino,Mendocino
-2017-11-28,0.21,Mendocino,Mendocino
-2017-11-29,0.23,Mendocino,Mendocino
-2017-11-30,0.17,Mendocino,Mendocino
-2017-12-01,0.26,Mendocino,Mendocino
-2017-12-02,0.2,Mendocino,Mendocino
-2017-12-03,0.18,Mendocino,Mendocino
-2017-12-04,0.13,Mendocino,Mendocino
-2017-12-05,0.25,Mendocino,Mendocino
-2017-12-06,0.26,Mendocino,Mendocino
-2017-12-07,0.27,Mendocino,Mendocino
-2017-12-08,0.35,Mendocino,Mendocino
-2017-12-09,0.24,Mendocino,Mendocino
-2017-12-10,0.26,Mendocino,Mendocino
-2017-12-11,0.27,Mendocino,Mendocino
-2017-12-12,0.31,Mendocino,Mendocino
-2017-12-13,0.18,Mendocino,Mendocino
-2017-12-14,0.31,Mendocino,Mendocino
-2017-12-15,0.58,Mendocino,Mendocino
-2017-12-16,0.25,Mendocino,Mendocino
-2017-12-17,0.16,Mendocino,Mendocino
-2017-12-18,0.3,Mendocino,Mendocino
-2017-12-19,0.37,Mendocino,Mendocino
-2017-12-20,0.36,Mendocino,Mendocino
-2017-12-21,0.34,Mendocino,Mendocino
-2017-12-22,0.3,Mendocino,Mendocino
-2017-12-23,0.16,Mendocino,Mendocino
-2017-12-24,0.17,Mendocino,Mendocino
-2017-12-25,0.08,Mendocino,Mendocino
-2017-12-26,0.25,Mendocino,Mendocino
-2017-12-27,0.32,Mendocino,Mendocino
-2017-12-28,0.3,Mendocino,Mendocino
-2017-12-29,0.45,Mendocino,Mendocino
-2017-12-30,0.32,Mendocino,Mendocino
-2017-12-31,0.48,Mendocino,Mendocino
-2018-01-01,0.46,Mendocino,Mendocino
-2018-01-02,0.21,Mendocino,Mendocino
-2018-01-03,0.2,Mendocino,Mendocino
-2018-01-04,0.29,Mendocino,Mendocino
-2018-01-05,0.19,Mendocino,Mendocino
-2018-01-06,0.16,Mendocino,Mendocino
-2018-01-07,0.32,Mendocino,Mendocino
-2018-01-08,0.3,Mendocino,Mendocino
-2018-01-09,0.25,Mendocino,Mendocino
-2018-01-10,0.16,Mendocino,Mendocino
-2018-01-11,0.21,Mendocino,Mendocino
-2018-01-12,0.25,Mendocino,Mendocino
-2018-01-13,0.25,Mendocino,Mendocino
-2018-01-14,0.33,Mendocino,Mendocino
-2018-01-15,0.21,Mendocino,Mendocino
-2018-01-16,0.3,Mendocino,Mendocino
-2018-01-17,0.17,Mendocino,Mendocino
-2018-01-18,0.29,Mendocino,Mendocino
-2018-01-19,0.21,Mendocino,Mendocino
-2018-01-20,0.32,Mendocino,Mendocino
-2018-01-21,0.27,Mendocino,Mendocino
-2018-01-22,0.28,Mendocino,Mendocino
-2018-01-23,0.27,Mendocino,Mendocino
-2018-01-24,0.34,Mendocino,Mendocino
-2018-01-25,0.27,Mendocino,Mendocino
-2018-01-26,0.45,Mendocino,Mendocino
-2018-01-27,0.24,Mendocino,Mendocino
-2018-01-28,0.32,Mendocino,Mendocino
-2018-01-29,0.17,Mendocino,Mendocino
-2018-01-30,0.22,Mendocino,Mendocino
-2018-01-31,0.18,Mendocino,Mendocino
-2018-02-01,0.22,Mendocino,Mendocino
-2018-02-02,0.27,Mendocino,Mendocino
-2018-02-03,0.18,Mendocino,Mendocino
-2018-02-04,0.13,Mendocino,Mendocino
-2018-02-05,0.16,Mendocino,Mendocino
-2018-02-06,0.24,Mendocino,Mendocino
-2018-02-07,0.21,Mendocino,Mendocino
-2018-02-08,0.14,Mendocino,Mendocino
-2018-02-09,0.17,Mendocino,Mendocino
-2018-02-10,0.19,Mendocino,Mendocino
-2018-02-11,0.19,Mendocino,Mendocino
-2018-02-12,0.22,Mendocino,Mendocino
-2018-02-13,0.45,Mendocino,Mendocino
-2018-02-14,0.33,Mendocino,Mendocino
-2018-02-15,0.29,Mendocino,Mendocino
-2018-02-16,0.45,Mendocino,Mendocino
-2018-02-17,0.46,Mendocino,Mendocino
-2018-02-18,0.32,Mendocino,Mendocino
-2018-02-19,0.37,Mendocino,Mendocino
-2018-02-20,0.24,Mendocino,Mendocino
-2018-02-21,0.3,Mendocino,Mendocino
-2018-02-22,0.25,Mendocino,Mendocino
-2018-02-23,0.19,Mendocino,Mendocino
-2018-02-24,0.22,Mendocino,Mendocino
-2018-02-25,0.19,Mendocino,Mendocino
-2018-02-26,0.27,Mendocino,Mendocino
-2018-02-27,0.2,Mendocino,Mendocino
-2018-02-28,0.17,Mendocino,Mendocino
-2018-03-01,0.21,Mendocino,Mendocino
-2018-03-02,0.35,Mendocino,Mendocino
-2018-03-03,0.19,Mendocino,Mendocino
-2018-03-04,0.26,Mendocino,Mendocino
-2018-03-05,0.22,Mendocino,Mendocino
-2018-03-07,0.1,Mendocino,Mendocino
-2018-03-08,0.24,Mendocino,Mendocino
-2018-03-09,0.18,Mendocino,Mendocino
-2018-03-10,0.3,Mendocino,Mendocino
-2018-03-11,0.13,Mendocino,Mendocino
-2018-03-12,0.29,Mendocino,Mendocino
-2018-03-13,0.26,Mendocino,Mendocino
-2018-03-14,0.21,Mendocino,Mendocino
-2018-03-15,0.17,Mendocino,Mendocino
-2018-03-16,0.18,Mendocino,Mendocino
-2018-03-17,0.15,Mendocino,Mendocino
-2018-03-18,0.1,Mendocino,Mendocino
-2018-03-19,0.06,Mendocino,Mendocino
-2018-03-20,0.17,Mendocino,Mendocino
-2018-03-21,0.14,Mendocino,Mendocino
-2018-03-22,0.24,Mendocino,Mendocino
-2018-03-23,0.41,Mendocino,Mendocino
-2018-03-24,0.21,Mendocino,Mendocino
-2018-03-25,0.15,Mendocino,Mendocino
-2018-03-26,0.09,Mendocino,Mendocino
-2018-03-27,0.14,Mendocino,Mendocino
-2018-03-28,0.06,Mendocino,Mendocino
-2018-03-29,0.12,Mendocino,Mendocino
-2018-03-30,0.15,Mendocino,Mendocino
-2018-03-31,0.15,Mendocino,Mendocino
-2018-04-01,0.13,Mendocino,Mendocino
-2018-04-02,0.14,Mendocino,Mendocino
-2018-04-03,0.07,Mendocino,Mendocino
-2018-04-04,0.11,Mendocino,Mendocino
-2018-04-05,0.07,Mendocino,Mendocino
-2018-04-06,0.08,Mendocino,Mendocino
-2018-04-07,0.11,Mendocino,Mendocino
-2018-04-08,0.13,Mendocino,Mendocino
-2018-04-09,0.07,Mendocino,Mendocino
-2018-04-10,0.11,Mendocino,Mendocino
-2018-04-11,0.07,Mendocino,Mendocino
-2018-04-12,0.22,Mendocino,Mendocino
-2018-04-13,0.13,Mendocino,Mendocino
-2018-04-14,0.06,Mendocino,Mendocino
-2018-04-15,0.06,Mendocino,Mendocino
-2018-04-16,0.1,Mendocino,Mendocino
-2018-04-17,0.12,Mendocino,Mendocino
-2018-04-18,0.1,Mendocino,Mendocino
-2018-04-19,0.14,Mendocino,Mendocino
-2018-04-20,0.08,Mendocino,Mendocino
-2018-04-21,0.1,Mendocino,Mendocino
-2018-04-22,0.07,Mendocino,Mendocino
-2018-04-23,0.18,Mendocino,Mendocino
-2018-04-24,0.07,Mendocino,Mendocino
-2018-04-25,0.12,Mendocino,Mendocino
-2018-04-27,0.13,Mendocino,Mendocino
-2018-04-28,0.07,Mendocino,Mendocino
-2018-04-29,0.12,Mendocino,Mendocino
-2018-05-01,0.12,Mendocino,Mendocino
-2018-05-04,0.12,Mendocino,Mendocino
-2018-05-05,0.08,Mendocino,Mendocino
-2018-05-08,0.06,Mendocino,Mendocino
-2018-05-17,0.06,Mendocino,Mendocino
-2018-05-18,0.13,Mendocino,Mendocino
-2018-05-20,0.1,Mendocino,Mendocino
-2018-05-22,0.08,Mendocino,Mendocino
-2018-05-26,0.08,Mendocino,Mendocino
-2018-05-27,0.11,Mendocino,Mendocino
-2018-05-28,0.06,Mendocino,Mendocino
-2018-05-30,0.09,Mendocino,Mendocino
-2018-06-04,0.1,Mendocino,Mendocino
+reading,rainfall,county,firename
+2017-09-15,0.06,Mendocino Complex,Mendocino Complex
+2017-09-17,0.07,Mendocino Complex,Mendocino Complex
+2017-10-08,0.07,Mendocino Complex,Mendocino Complex
+2017-10-10,0.08,Mendocino Complex,Mendocino Complex
+2017-10-12,0.07,Mendocino Complex,Mendocino Complex
+2017-10-16,0.07,Mendocino Complex,Mendocino Complex
+2017-10-19,0.09,Mendocino Complex,Mendocino Complex
+2017-10-23,0.13,Mendocino Complex,Mendocino Complex
+2017-10-24,0.12,Mendocino Complex,Mendocino Complex
+2017-10-25,0.08,Mendocino Complex,Mendocino Complex
+2017-10-26,0.13,Mendocino Complex,Mendocino Complex
+2017-10-27,0.1,Mendocino Complex,Mendocino Complex
+2017-10-28,0.23,Mendocino Complex,Mendocino Complex
+2017-10-29,0.27,Mendocino Complex,Mendocino Complex
+2017-10-30,0.14,Mendocino Complex,Mendocino Complex
+2017-10-31,0.09,Mendocino Complex,Mendocino Complex
+2017-11-01,0.09,Mendocino Complex,Mendocino Complex
+2017-11-02,0.13,Mendocino Complex,Mendocino Complex
+2017-11-03,0.08,Mendocino Complex,Mendocino Complex
+2017-11-06,0.17,Mendocino Complex,Mendocino Complex
+2017-11-07,0.2,Mendocino Complex,Mendocino Complex
+2017-11-08,0.24,Mendocino Complex,Mendocino Complex
+2017-11-09,0.2,Mendocino Complex,Mendocino Complex
+2017-11-10,0.31,Mendocino Complex,Mendocino Complex
+2017-11-11,0.16,Mendocino Complex,Mendocino Complex
+2017-11-12,0.16,Mendocino Complex,Mendocino Complex
+2017-11-13,0.19,Mendocino Complex,Mendocino Complex
+2017-11-14,0.06,Mendocino Complex,Mendocino Complex
+2017-11-15,0.21,Mendocino Complex,Mendocino Complex
+2017-11-16,0.36,Mendocino Complex,Mendocino Complex
+2017-11-17,0.37,Mendocino Complex,Mendocino Complex
+2017-11-18,0.15,Mendocino Complex,Mendocino Complex
+2017-11-19,0.24,Mendocino Complex,Mendocino Complex
+2017-11-20,0.2,Mendocino Complex,Mendocino Complex
+2017-11-21,0.19,Mendocino Complex,Mendocino Complex
+2017-11-22,0.17,Mendocino Complex,Mendocino Complex
+2017-11-23,0.25,Mendocino Complex,Mendocino Complex
+2017-11-24,0.27,Mendocino Complex,Mendocino Complex
+2017-11-25,0.15,Mendocino Complex,Mendocino Complex
+2017-11-26,0.09,Mendocino Complex,Mendocino Complex
+2017-11-27,0.16,Mendocino Complex,Mendocino Complex
+2017-11-28,0.21,Mendocino Complex,Mendocino Complex
+2017-11-29,0.23,Mendocino Complex,Mendocino Complex
+2017-11-30,0.17,Mendocino Complex,Mendocino Complex
+2017-12-01,0.26,Mendocino Complex,Mendocino Complex
+2017-12-02,0.2,Mendocino Complex,Mendocino Complex
+2017-12-03,0.18,Mendocino Complex,Mendocino Complex
+2017-12-04,0.13,Mendocino Complex,Mendocino Complex
+2017-12-05,0.25,Mendocino Complex,Mendocino Complex
+2017-12-06,0.26,Mendocino Complex,Mendocino Complex
+2017-12-07,0.27,Mendocino Complex,Mendocino Complex
+2017-12-08,0.35,Mendocino Complex,Mendocino Complex
+2017-12-09,0.24,Mendocino Complex,Mendocino Complex
+2017-12-10,0.26,Mendocino Complex,Mendocino Complex
+2017-12-11,0.27,Mendocino Complex,Mendocino Complex
+2017-12-12,0.31,Mendocino Complex,Mendocino Complex
+2017-12-13,0.18,Mendocino Complex,Mendocino Complex
+2017-12-14,0.31,Mendocino Complex,Mendocino Complex
+2017-12-15,0.58,Mendocino Complex,Mendocino Complex
+2017-12-16,0.25,Mendocino Complex,Mendocino Complex
+2017-12-17,0.16,Mendocino Complex,Mendocino Complex
+2017-12-18,0.3,Mendocino Complex,Mendocino Complex
+2017-12-19,0.37,Mendocino Complex,Mendocino Complex
+2017-12-20,0.36,Mendocino Complex,Mendocino Complex
+2017-12-21,0.34,Mendocino Complex,Mendocino Complex
+2017-12-22,0.3,Mendocino Complex,Mendocino Complex
+2017-12-23,0.16,Mendocino Complex,Mendocino Complex
+2017-12-24,0.17,Mendocino Complex,Mendocino Complex
+2017-12-25,0.08,Mendocino Complex,Mendocino Complex
+2017-12-26,0.25,Mendocino Complex,Mendocino Complex
+2017-12-27,0.32,Mendocino Complex,Mendocino Complex
+2017-12-28,0.3,Mendocino Complex,Mendocino Complex
+2017-12-29,0.45,Mendocino Complex,Mendocino Complex
+2017-12-30,0.32,Mendocino Complex,Mendocino Complex
+2017-12-31,0.48,Mendocino Complex,Mendocino Complex
+2018-01-01,0.46,Mendocino Complex,Mendocino Complex
+2018-01-02,0.21,Mendocino Complex,Mendocino Complex
+2018-01-03,0.2,Mendocino Complex,Mendocino Complex
+2018-01-04,0.29,Mendocino Complex,Mendocino Complex
+2018-01-05,0.19,Mendocino Complex,Mendocino Complex
+2018-01-06,0.16,Mendocino Complex,Mendocino Complex
+2018-01-07,0.32,Mendocino Complex,Mendocino Complex
+2018-01-08,0.3,Mendocino Complex,Mendocino Complex
+2018-01-09,0.25,Mendocino Complex,Mendocino Complex
+2018-01-10,0.16,Mendocino Complex,Mendocino Complex
+2018-01-11,0.21,Mendocino Complex,Mendocino Complex
+2018-01-12,0.25,Mendocino Complex,Mendocino Complex
+2018-01-13,0.25,Mendocino Complex,Mendocino Complex
+2018-01-14,0.33,Mendocino Complex,Mendocino Complex
+2018-01-15,0.21,Mendocino Complex,Mendocino Complex
+2018-01-16,0.3,Mendocino Complex,Mendocino Complex
+2018-01-17,0.17,Mendocino Complex,Mendocino Complex
+2018-01-18,0.29,Mendocino Complex,Mendocino Complex
+2018-01-19,0.21,Mendocino Complex,Mendocino Complex
+2018-01-20,0.32,Mendocino Complex,Mendocino Complex
+2018-01-21,0.27,Mendocino Complex,Mendocino Complex
+2018-01-22,0.28,Mendocino Complex,Mendocino Complex
+2018-01-23,0.27,Mendocino Complex,Mendocino Complex
+2018-01-24,0.34,Mendocino Complex,Mendocino Complex
+2018-01-25,0.27,Mendocino Complex,Mendocino Complex
+2018-01-26,0.45,Mendocino Complex,Mendocino Complex
+2018-01-27,0.24,Mendocino Complex,Mendocino Complex
+2018-01-28,0.32,Mendocino Complex,Mendocino Complex
+2018-01-29,0.17,Mendocino Complex,Mendocino Complex
+2018-01-30,0.22,Mendocino Complex,Mendocino Complex
+2018-01-31,0.18,Mendocino Complex,Mendocino Complex
+2018-02-01,0.22,Mendocino Complex,Mendocino Complex
+2018-02-02,0.27,Mendocino Complex,Mendocino Complex
+2018-02-03,0.18,Mendocino Complex,Mendocino Complex
+2018-02-04,0.13,Mendocino Complex,Mendocino Complex
+2018-02-05,0.16,Mendocino Complex,Mendocino Complex
+2018-02-06,0.24,Mendocino Complex,Mendocino Complex
+2018-02-07,0.21,Mendocino Complex,Mendocino Complex
+2018-02-08,0.14,Mendocino Complex,Mendocino Complex
+2018-02-09,0.17,Mendocino Complex,Mendocino Complex
+2018-02-10,0.19,Mendocino Complex,Mendocino Complex
+2018-02-11,0.19,Mendocino Complex,Mendocino Complex
+2018-02-12,0.22,Mendocino Complex,Mendocino Complex
+2018-02-13,0.45,Mendocino Complex,Mendocino Complex
+2018-02-14,0.33,Mendocino Complex,Mendocino Complex
+2018-02-15,0.29,Mendocino Complex,Mendocino Complex
+2018-02-16,0.45,Mendocino Complex,Mendocino Complex
+2018-02-17,0.46,Mendocino Complex,Mendocino Complex
+2018-02-18,0.32,Mendocino Complex,Mendocino Complex
+2018-02-19,0.37,Mendocino Complex,Mendocino Complex
+2018-02-20,0.24,Mendocino Complex,Mendocino Complex
+2018-02-21,0.3,Mendocino Complex,Mendocino Complex
+2018-02-22,0.25,Mendocino Complex,Mendocino Complex
+2018-02-23,0.19,Mendocino Complex,Mendocino Complex
+2018-02-24,0.22,Mendocino Complex,Mendocino Complex
+2018-02-25,0.19,Mendocino Complex,Mendocino Complex
+2018-02-26,0.27,Mendocino Complex,Mendocino Complex
+2018-02-27,0.2,Mendocino Complex,Mendocino Complex
+2018-02-28,0.17,Mendocino Complex,Mendocino Complex
+2018-03-01,0.21,Mendocino Complex,Mendocino Complex
+2018-03-02,0.35,Mendocino Complex,Mendocino Complex
+2018-03-03,0.19,Mendocino Complex,Mendocino Complex
+2018-03-04,0.26,Mendocino Complex,Mendocino Complex
+2018-03-05,0.22,Mendocino Complex,Mendocino Complex
+2018-03-07,0.1,Mendocino Complex,Mendocino Complex
+2018-03-08,0.24,Mendocino Complex,Mendocino Complex
+2018-03-09,0.18,Mendocino Complex,Mendocino Complex
+2018-03-10,0.3,Mendocino Complex,Mendocino Complex
+2018-03-11,0.13,Mendocino Complex,Mendocino Complex
+2018-03-12,0.29,Mendocino Complex,Mendocino Complex
+2018-03-13,0.26,Mendocino Complex,Mendocino Complex
+2018-03-14,0.21,Mendocino Complex,Mendocino Complex
+2018-03-15,0.17,Mendocino Complex,Mendocino Complex
+2018-03-16,0.18,Mendocino Complex,Mendocino Complex
+2018-03-17,0.15,Mendocino Complex,Mendocino Complex
+2018-03-18,0.1,Mendocino Complex,Mendocino Complex
+2018-03-19,0.06,Mendocino Complex,Mendocino Complex
+2018-03-20,0.17,Mendocino Complex,Mendocino Complex
+2018-03-21,0.14,Mendocino Complex,Mendocino Complex
+2018-03-22,0.24,Mendocino Complex,Mendocino Complex
+2018-03-23,0.41,Mendocino Complex,Mendocino Complex
+2018-03-24,0.21,Mendocino Complex,Mendocino Complex
+2018-03-25,0.15,Mendocino Complex,Mendocino Complex
+2018-03-26,0.09,Mendocino Complex,Mendocino Complex
+2018-03-27,0.14,Mendocino Complex,Mendocino Complex
+2018-03-28,0.06,Mendocino Complex,Mendocino Complex
+2018-03-29,0.12,Mendocino Complex,Mendocino Complex
+2018-03-30,0.15,Mendocino Complex,Mendocino Complex
+2018-03-31,0.15,Mendocino Complex,Mendocino Complex
+2018-04-01,0.13,Mendocino Complex,Mendocino Complex
+2018-04-02,0.14,Mendocino Complex,Mendocino Complex
+2018-04-03,0.07,Mendocino Complex,Mendocino Complex
+2018-04-04,0.11,Mendocino Complex,Mendocino Complex
+2018-04-05,0.07,Mendocino Complex,Mendocino Complex
+2018-04-06,0.08,Mendocino Complex,Mendocino Complex
+2018-04-07,0.11,Mendocino Complex,Mendocino Complex
+2018-04-08,0.13,Mendocino Complex,Mendocino Complex
+2018-04-09,0.07,Mendocino Complex,Mendocino Complex
+2018-04-10,0.11,Mendocino Complex,Mendocino Complex
+2018-04-11,0.07,Mendocino Complex,Mendocino Complex
+2018-04-12,0.22,Mendocino Complex,Mendocino Complex
+2018-04-13,0.13,Mendocino Complex,Mendocino Complex
+2018-04-14,0.06,Mendocino Complex,Mendocino Complex
+2018-04-15,0.06,Mendocino Complex,Mendocino Complex
+2018-04-16,0.1,Mendocino Complex,Mendocino Complex
+2018-04-17,0.12,Mendocino Complex,Mendocino Complex
+2018-04-18,0.1,Mendocino Complex,Mendocino Complex
+2018-04-19,0.14,Mendocino Complex,Mendocino Complex
+2018-04-20,0.08,Mendocino Complex,Mendocino Complex
+2018-04-21,0.1,Mendocino Complex,Mendocino Complex
+2018-04-22,0.07,Mendocino Complex,Mendocino Complex
+2018-04-23,0.18,Mendocino Complex,Mendocino Complex
+2018-04-24,0.07,Mendocino Complex,Mendocino Complex
+2018-04-25,0.12,Mendocino Complex,Mendocino Complex
+2018-04-27,0.13,Mendocino Complex,Mendocino Complex
+2018-04-28,0.07,Mendocino Complex,Mendocino Complex
+2018-04-29,0.12,Mendocino Complex,Mendocino Complex
+2018-05-01,0.12,Mendocino Complex,Mendocino Complex
+2018-05-04,0.12,Mendocino Complex,Mendocino Complex
+2018-05-05,0.08,Mendocino Complex,Mendocino Complex
+2018-05-08,0.06,Mendocino Complex,Mendocino Complex
+2018-05-17,0.06,Mendocino Complex,Mendocino Complex
+2018-05-18,0.13,Mendocino Complex,Mendocino Complex
+2018-05-20,0.1,Mendocino Complex,Mendocino Complex
+2018-05-22,0.08,Mendocino Complex,Mendocino Complex
+2018-05-26,0.08,Mendocino Complex,Mendocino Complex
+2018-05-27,0.11,Mendocino Complex,Mendocino Complex
+2018-05-28,0.06,Mendocino Complex,Mendocino Complex
+2018-05-30,0.09,Mendocino Complex,Mendocino Complex
+2018-06-04,0.1,Mendocino Complex,Mendocino Complex
 2016-12-15,0.54,Ventura,Thomas
 2016-12-16,0.48,Ventura,Thomas
 2016-12-18,0.1,Ventura,Thomas
@@ -595,83 +595,83 @@ reading,rainfall,county,fire_name
 2007-04-23,0.18,San Diego,Witch
 2007-09-20,0.07,San Diego,Witch
 2007-09-28,0.06,San Diego,Witch
-2007-07-09,0.15,Siskiyou,Klamath
-2007-07-18,0.36,Siskiyou,Klamath
-2007-10-01,0.42,Siskiyou,Klamath
-2007-10-10,0.28,Siskiyou,Klamath
-2007-10-12,0.17,Siskiyou,Klamath
-2007-10-16,0.26,Siskiyou,Klamath
-2007-10-17,0.17,Siskiyou,Klamath
-2007-10-19,1.2,Siskiyou,Klamath
-2007-10-20,0.78,Siskiyou,Klamath
-2007-10-22,0.54,Siskiyou,Klamath
-2007-10-30,0.34,Siskiyou,Klamath
-2007-11-11,0.18,Siskiyou,Klamath
-2007-11-13,0.33,Siskiyou,Klamath
-2007-11-19,0.41,Siskiyou,Klamath
-2007-11-27,0.11,Siskiyou,Klamath
-2007-12-03,0.11,Siskiyou,Klamath
-2007-12-04,0.98,Siskiyou,Klamath
-2007-12-06,0.06,Siskiyou,Klamath
-2007-12-07,0.19,Siskiyou,Klamath
-2007-12-17,0.11,Siskiyou,Klamath
-2007-12-18,0.23,Siskiyou,Klamath
-2007-12-19,0.08,Siskiyou,Klamath
-2007-12-20,0.97,Siskiyou,Klamath
-2007-12-26,0.11,Siskiyou,Klamath
-2007-12-29,0.09,Siskiyou,Klamath
-2008-01-04,1.22,Siskiyou,Klamath
-2008-01-05,0.7,Siskiyou,Klamath
-2008-01-06,1.07,Siskiyou,Klamath
-2008-01-07,2.08,Siskiyou,Klamath
-2008-01-08,0.42,Siskiyou,Klamath
-2008-01-09,0.92,Siskiyou,Klamath
-2008-01-10,0.25,Siskiyou,Klamath
-2008-01-12,0.11,Siskiyou,Klamath
-2008-01-14,0.11,Siskiyou,Klamath
-2008-01-22,0.12,Siskiyou,Klamath
-2008-01-25,0.06,Siskiyou,Klamath
-2008-01-28,0.08,Siskiyou,Klamath
-2008-01-30,0.29,Siskiyou,Klamath
-2008-01-31,0.4,Siskiyou,Klamath
-2008-02-01,0.9,Siskiyou,Klamath
-2008-02-03,0.99,Siskiyou,Klamath
-2008-02-04,1.35,Siskiyou,Klamath
-2008-02-23,0.12,Siskiyou,Klamath
-2008-02-25,0.08,Siskiyou,Klamath
-2008-03-14,0.1,Siskiyou,Klamath
-2008-03-17,0.15,Siskiyou,Klamath
-2008-03-21,0.1,Siskiyou,Klamath
-2008-03-24,0.06,Siskiyou,Klamath
-2008-03-27,0.09,Siskiyou,Klamath
-2008-04-22,0.06,Siskiyou,Klamath
-2008-04-23,0.5,Siskiyou,Klamath
-2008-05-26,0.25,Siskiyou,Klamath
-2008-05-27,1.16,Siskiyou,Klamath
-2008-05-28,0.35,Siskiyou,Klamath
-2008-05-29,0.12,Siskiyou,Klamath
-2007-09-22,0.11,Monterey,Basin
-2007-09-23,0.1,Monterey,Basin
-2007-10-13,0.3,Monterey,Basin
-2007-12-07,0.17,Monterey,Basin
-2007-12-18,0.2,Monterey,Basin
-2008-01-04,2.01,Monterey,Basin
-2008-01-05,0.28,Monterey,Basin
-2008-01-06,0.5,Monterey,Basin
-2008-01-07,0.14,Monterey,Basin
-2008-01-22,0.68,Monterey,Basin
-2008-01-23,0.5,Monterey,Basin
-2008-01-24,0.65,Monterey,Basin
-2008-01-25,0.25,Monterey,Basin
-2008-01-26,0.61,Monterey,Basin
-2008-01-27,0.49,Monterey,Basin
-2008-01-28,0.16,Monterey,Basin
-2008-02-03,0.08,Monterey,Basin
-2008-02-23,0.2,Monterey,Basin
-2008-02-24,0.75,Monterey,Basin
-2008-03-16,0.13,Monterey,Basin
-2008-04-02,0.24,Monterey,Basin
-2008-04-03,0.13,Monterey,Basin
+2007-07-09,0.15,Siskiyou,Klamath Theater Complex
+2007-07-18,0.36,Siskiyou,Klamath Theater Complex
+2007-10-01,0.42,Siskiyou,Klamath Theater Complex
+2007-10-10,0.28,Siskiyou,Klamath Theater Complex
+2007-10-12,0.17,Siskiyou,Klamath Theater Complex
+2007-10-16,0.26,Siskiyou,Klamath Theater Complex
+2007-10-17,0.17,Siskiyou,Klamath Theater Complex
+2007-10-19,1.2,Siskiyou,Klamath Theater Complex
+2007-10-20,0.78,Siskiyou,Klamath Theater Complex
+2007-10-22,0.54,Siskiyou,Klamath Theater Complex
+2007-10-30,0.34,Siskiyou,Klamath Theater Complex
+2007-11-11,0.18,Siskiyou,Klamath Theater Complex
+2007-11-13,0.33,Siskiyou,Klamath Theater Complex
+2007-11-19,0.41,Siskiyou,Klamath Theater Complex
+2007-11-27,0.11,Siskiyou,Klamath Theater Complex
+2007-12-03,0.11,Siskiyou,Klamath Theater Complex
+2007-12-04,0.98,Siskiyou,Klamath Theater Complex
+2007-12-06,0.06,Siskiyou,Klamath Theater Complex
+2007-12-07,0.19,Siskiyou,Klamath Theater Complex
+2007-12-17,0.11,Siskiyou,Klamath Theater Complex
+2007-12-18,0.23,Siskiyou,Klamath Theater Complex
+2007-12-19,0.08,Siskiyou,Klamath Theater Complex
+2007-12-20,0.97,Siskiyou,Klamath Theater Complex
+2007-12-26,0.11,Siskiyou,Klamath Theater Complex
+2007-12-29,0.09,Siskiyou,Klamath Theater Complex
+2008-01-04,1.22,Siskiyou,Klamath Theater Complex
+2008-01-05,0.7,Siskiyou,Klamath Theater Complex
+2008-01-06,1.07,Siskiyou,Klamath Theater Complex
+2008-01-07,2.08,Siskiyou,Klamath Theater Complex
+2008-01-08,0.42,Siskiyou,Klamath Theater Complex
+2008-01-09,0.92,Siskiyou,Klamath Theater Complex
+2008-01-10,0.25,Siskiyou,Klamath Theater Complex
+2008-01-12,0.11,Siskiyou,Klamath Theater Complex
+2008-01-14,0.11,Siskiyou,Klamath Theater Complex
+2008-01-22,0.12,Siskiyou,Klamath Theater Complex
+2008-01-25,0.06,Siskiyou,Klamath Theater Complex
+2008-01-28,0.08,Siskiyou,Klamath Theater Complex
+2008-01-30,0.29,Siskiyou,Klamath Theater Complex
+2008-01-31,0.4,Siskiyou,Klamath Theater Complex
+2008-02-01,0.9,Siskiyou,Klamath Theater Complex
+2008-02-03,0.99,Siskiyou,Klamath Theater Complex
+2008-02-04,1.35,Siskiyou,Klamath Theater Complex
+2008-02-23,0.12,Siskiyou,Klamath Theater Complex
+2008-02-25,0.08,Siskiyou,Klamath Theater Complex
+2008-03-14,0.1,Siskiyou,Klamath Theater Complex
+2008-03-17,0.15,Siskiyou,Klamath Theater Complex
+2008-03-21,0.1,Siskiyou,Klamath Theater Complex
+2008-03-24,0.06,Siskiyou,Klamath Theater Complex
+2008-03-27,0.09,Siskiyou,Klamath Theater Complex
+2008-04-22,0.06,Siskiyou,Klamath Theater Complex
+2008-04-23,0.5,Siskiyou,Klamath Theater Complex
+2008-05-26,0.25,Siskiyou,Klamath Theater Complex
+2008-05-27,1.16,Siskiyou,Klamath Theater Complex
+2008-05-28,0.35,Siskiyou,Klamath Theater Complex
+2008-05-29,0.12,Siskiyou,Klamath Theater Complex
+2007-09-22,0.11,Monterey,Basin Complex
+2007-09-23,0.1,Monterey,Basin Complex
+2007-10-13,0.3,Monterey,Basin Complex
+2007-12-07,0.17,Monterey,Basin Complex
+2007-12-18,0.2,Monterey,Basin Complex
+2008-01-04,2.01,Monterey,Basin Complex
+2008-01-05,0.28,Monterey,Basin Complex
+2008-01-06,0.5,Monterey,Basin Complex
+2008-01-07,0.14,Monterey,Basin Complex
+2008-01-22,0.68,Monterey,Basin Complex
+2008-01-23,0.5,Monterey,Basin Complex
+2008-01-24,0.65,Monterey,Basin Complex
+2008-01-25,0.25,Monterey,Basin Complex
+2008-01-26,0.61,Monterey,Basin Complex
+2008-01-27,0.49,Monterey,Basin Complex
+2008-01-28,0.16,Monterey,Basin Complex
+2008-02-03,0.08,Monterey,Basin Complex
+2008-02-23,0.2,Monterey,Basin Complex
+2008-02-24,0.75,Monterey,Basin Complex
+2008-03-16,0.13,Monterey,Basin Complex
+2008-04-02,0.24,Monterey,Basin Complex
+2008-04-03,0.13,Monterey,Basin Complex
 2005-09-27,0.33,Ventura,Day
 2005-10-17,0.28,Ventura,Day
 2005-10-18,0.79,Ventura,Day
@@ -801,91 +801,91 @@ reading,rainfall,county,fire_name
 2002-04-26,0.67,Tulare,McNally
 2002-05-20,0.07,Tulare,McNally
 2002-05-21,0.11,Tulare,McNally
-1998-09-10,0.36,Trinity,BigBarComplex
-1998-09-28,0.33,Trinity,BigBarComplex
-1998-10-13,0.4,Trinity,BigBarComplex
-1998-10-24,0.85,Trinity,BigBarComplex
-1998-10-25,0.38,Trinity,BigBarComplex
-1998-11-01,0.36,Trinity,BigBarComplex
-1998-11-03,0.09,Trinity,BigBarComplex
-1998-11-05,0.16,Trinity,BigBarComplex
-1998-11-06,0.23,Trinity,BigBarComplex
-1998-11-07,0.67,Trinity,BigBarComplex
-1998-11-08,0.4,Trinity,BigBarComplex
-1998-11-10,0.16,Trinity,BigBarComplex
-1998-11-11,0.38,Trinity,BigBarComplex
-1998-11-17,0.64,Trinity,BigBarComplex
-1998-11-21,1.0,Trinity,BigBarComplex
-1998-11-22,1.8,Trinity,BigBarComplex
-1998-11-23,1.0,Trinity,BigBarComplex
-1998-11-24,1.25,Trinity,BigBarComplex
-1998-11-25,0.06,Trinity,BigBarComplex
-1998-11-26,0.47,Trinity,BigBarComplex
-1998-11-27,0.22,Trinity,BigBarComplex
-1998-11-29,0.81,Trinity,BigBarComplex
-1998-11-30,0.93,Trinity,BigBarComplex
-1998-12-01,0.66,Trinity,BigBarComplex
-1998-12-02,0.53,Trinity,BigBarComplex
-1998-12-03,0.38,Trinity,BigBarComplex
-1998-12-12,0.41,Trinity,BigBarComplex
-1998-12-13,0.18,Trinity,BigBarComplex
-1998-12-14,0.31,Trinity,BigBarComplex
-1998-12-20,1.07,Trinity,BigBarComplex
-1998-12-31,0.2,Trinity,BigBarComplex
-1999-01-15,0.55,Trinity,BigBarComplex
-1999-01-16,0.4,Trinity,BigBarComplex
-1999-01-17,0.26,Trinity,BigBarComplex
-1999-01-18,0.91,Trinity,BigBarComplex
-1999-01-19,0.21,Trinity,BigBarComplex
-1999-01-20,0.26,Trinity,BigBarComplex
-1999-01-21,0.72,Trinity,BigBarComplex
-1999-01-22,0.07,Trinity,BigBarComplex
-1999-01-23,0.93,Trinity,BigBarComplex
-1999-01-24,0.12,Trinity,BigBarComplex
-1999-01-27,0.08,Trinity,BigBarComplex
-1999-01-31,0.51,Trinity,BigBarComplex
-1999-02-01,0.06,Trinity,BigBarComplex
-1999-02-06,0.42,Trinity,BigBarComplex
-1999-02-07,2.27,Trinity,BigBarComplex
-1999-02-08,0.18,Trinity,BigBarComplex
-1999-02-09,1.4,Trinity,BigBarComplex
-1999-02-10,1.1,Trinity,BigBarComplex
-1999-02-14,0.53,Trinity,BigBarComplex
-1999-02-16,0.4,Trinity,BigBarComplex
-1999-02-17,0.9,Trinity,BigBarComplex
-1999-02-18,0.11,Trinity,BigBarComplex
-1999-02-19,0.92,Trinity,BigBarComplex
-1999-02-21,0.82,Trinity,BigBarComplex
-1999-02-22,0.25,Trinity,BigBarComplex
-1999-02-23,0.38,Trinity,BigBarComplex
-1999-02-25,0.53,Trinity,BigBarComplex
-1999-02-26,0.12,Trinity,BigBarComplex
-1999-02-27,0.59,Trinity,BigBarComplex
-1999-02-28,0.53,Trinity,BigBarComplex
-1999-03-03,0.64,Trinity,BigBarComplex
-1999-03-04,0.06,Trinity,BigBarComplex
-1999-03-05,0.11,Trinity,BigBarComplex
-1999-03-09,0.62,Trinity,BigBarComplex
-1999-03-14,0.14,Trinity,BigBarComplex
-1999-03-15,0.22,Trinity,BigBarComplex
-1999-03-20,0.11,Trinity,BigBarComplex
-1999-03-21,0.06,Trinity,BigBarComplex
-1999-03-22,0.07,Trinity,BigBarComplex
-1999-03-23,0.08,Trinity,BigBarComplex
-1999-03-24,0.47,Trinity,BigBarComplex
-1999-03-25,0.48,Trinity,BigBarComplex
-1999-03-30,0.26,Trinity,BigBarComplex
-1999-03-31,0.6,Trinity,BigBarComplex
-1999-04-04,0.06,Trinity,BigBarComplex
-1999-04-05,0.18,Trinity,BigBarComplex
-1999-04-06,0.1,Trinity,BigBarComplex
-1999-04-08,0.28,Trinity,BigBarComplex
-1999-04-09,0.08,Trinity,BigBarComplex
-1999-04-10,0.13,Trinity,BigBarComplex
-1999-04-11,0.48,Trinity,BigBarComplex
-1999-05-03,0.2,Trinity,BigBarComplex
-1999-05-04,0.2,Trinity,BigBarComplex
-1999-05-15,0.1,Trinity,BigBarComplex
-1999-06-03,0.11,Trinity,BigBarComplex
-1999-08-07,0.2,Trinity,BigBarComplex
-1999-08-11,0.07,Trinity,BigBarComplex
+1998-09-10,0.36,Trinity,Big Bar Complex
+1998-09-28,0.33,Trinity,Big Bar Complex
+1998-10-13,0.4,Trinity,Big Bar Complex
+1998-10-24,0.85,Trinity,Big Bar Complex
+1998-10-25,0.38,Trinity,Big Bar Complex
+1998-11-01,0.36,Trinity,Big Bar Complex
+1998-11-03,0.09,Trinity,Big Bar Complex
+1998-11-05,0.16,Trinity,Big Bar Complex
+1998-11-06,0.23,Trinity,Big Bar Complex
+1998-11-07,0.67,Trinity,Big Bar Complex
+1998-11-08,0.4,Trinity,Big Bar Complex
+1998-11-10,0.16,Trinity,Big Bar Complex
+1998-11-11,0.38,Trinity,Big Bar Complex
+1998-11-17,0.64,Trinity,Big Bar Complex
+1998-11-21,1.0,Trinity,Big Bar Complex
+1998-11-22,1.8,Trinity,Big Bar Complex
+1998-11-23,1.0,Trinity,Big Bar Complex
+1998-11-24,1.25,Trinity,Big Bar Complex
+1998-11-25,0.06,Trinity,Big Bar Complex
+1998-11-26,0.47,Trinity,Big Bar Complex
+1998-11-27,0.22,Trinity,Big Bar Complex
+1998-11-29,0.81,Trinity,Big Bar Complex
+1998-11-30,0.93,Trinity,Big Bar Complex
+1998-12-01,0.66,Trinity,Big Bar Complex
+1998-12-02,0.53,Trinity,Big Bar Complex
+1998-12-03,0.38,Trinity,Big Bar Complex
+1998-12-12,0.41,Trinity,Big Bar Complex
+1998-12-13,0.18,Trinity,Big Bar Complex
+1998-12-14,0.31,Trinity,Big Bar Complex
+1998-12-20,1.07,Trinity,Big Bar Complex
+1998-12-31,0.2,Trinity,Big Bar Complex
+1999-01-15,0.55,Trinity,Big Bar Complex
+1999-01-16,0.4,Trinity,Big Bar Complex
+1999-01-17,0.26,Trinity,Big Bar Complex
+1999-01-18,0.91,Trinity,Big Bar Complex
+1999-01-19,0.21,Trinity,Big Bar Complex
+1999-01-20,0.26,Trinity,Big Bar Complex
+1999-01-21,0.72,Trinity,Big Bar Complex
+1999-01-22,0.07,Trinity,Big Bar Complex
+1999-01-23,0.93,Trinity,Big Bar Complex
+1999-01-24,0.12,Trinity,Big Bar Complex
+1999-01-27,0.08,Trinity,Big Bar Complex
+1999-01-31,0.51,Trinity,Big Bar Complex
+1999-02-01,0.06,Trinity,Big Bar Complex
+1999-02-06,0.42,Trinity,Big Bar Complex
+1999-02-07,2.27,Trinity,Big Bar Complex
+1999-02-08,0.18,Trinity,Big Bar Complex
+1999-02-09,1.4,Trinity,Big Bar Complex
+1999-02-10,1.1,Trinity,Big Bar Complex
+1999-02-14,0.53,Trinity,Big Bar Complex
+1999-02-16,0.4,Trinity,Big Bar Complex
+1999-02-17,0.9,Trinity,Big Bar Complex
+1999-02-18,0.11,Trinity,Big Bar Complex
+1999-02-19,0.92,Trinity,Big Bar Complex
+1999-02-21,0.82,Trinity,Big Bar Complex
+1999-02-22,0.25,Trinity,Big Bar Complex
+1999-02-23,0.38,Trinity,Big Bar Complex
+1999-02-25,0.53,Trinity,Big Bar Complex
+1999-02-26,0.12,Trinity,Big Bar Complex
+1999-02-27,0.59,Trinity,Big Bar Complex
+1999-02-28,0.53,Trinity,Big Bar Complex
+1999-03-03,0.64,Trinity,Big Bar Complex
+1999-03-04,0.06,Trinity,Big Bar Complex
+1999-03-05,0.11,Trinity,Big Bar Complex
+1999-03-09,0.62,Trinity,Big Bar Complex
+1999-03-14,0.14,Trinity,Big Bar Complex
+1999-03-15,0.22,Trinity,Big Bar Complex
+1999-03-20,0.11,Trinity,Big Bar Complex
+1999-03-21,0.06,Trinity,Big Bar Complex
+1999-03-22,0.07,Trinity,Big Bar Complex
+1999-03-23,0.08,Trinity,Big Bar Complex
+1999-03-24,0.47,Trinity,Big Bar Complex
+1999-03-25,0.48,Trinity,Big Bar Complex
+1999-03-30,0.26,Trinity,Big Bar Complex
+1999-03-31,0.6,Trinity,Big Bar Complex
+1999-04-04,0.06,Trinity,Big Bar Complex
+1999-04-05,0.18,Trinity,Big Bar Complex
+1999-04-06,0.1,Trinity,Big Bar Complex
+1999-04-08,0.28,Trinity,Big Bar Complex
+1999-04-09,0.08,Trinity,Big Bar Complex
+1999-04-10,0.13,Trinity,Big Bar Complex
+1999-04-11,0.48,Trinity,Big Bar Complex
+1999-05-03,0.2,Trinity,Big Bar Complex
+1999-05-04,0.2,Trinity,Big Bar Complex
+1999-05-15,0.1,Trinity,Big Bar Complex
+1999-06-03,0.11,Trinity,Big Bar Complex
+1999-08-07,0.2,Trinity,Big Bar Complex
+1999-08-11,0.07,Trinity,Big Bar Complex

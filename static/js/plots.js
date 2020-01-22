@@ -29,40 +29,44 @@ function optionChanged(newfireID)
 {
   console.log("Dropdown changed to: ", newfireID);
   ShowMetadata(newfireID);
+  buildLine(newfireID);
   // DrawBargraph(newSampleID);
   // DrawBubbleChart(newSampleID);
   // DrawGauge(newSampleID);
 }
 
-// function DrawGauge(sampleID)
-// {
-//   console.log("ShowMetadata: sample = ", sampleID);
+function buildLine(fireID){
+  d3.json("/3monthsRain").then(function(data){
+      console.log(data);
+      // var sample = data.samples;
 
-//   d3.json("Resources/samples.json").then((data) => {
+      var resultArr = data.filter(element => element.firename == fireID);
+      // var result = resultArr[0];
+      console.log(resultArr);
+      //top 10 otu
 
-//     var metaData = data.metadata;
-//     var displayData = metaData.filter(element => element.id == sampleID);
-//     var displayData = displayData[0];
-//     var frequency = displayData.wfreq;
-//     console.log("data: ", frequency);
+      var readings_label  = resultArr.map(d => d.reading);
+      var rainfalls = resultArr.map(d => d.rainfall);
 
+      var trace1 = {
+        x: readings_label,
+        y: rainfalls,
+        type: "line"
+      };
+      
+      var data = [trace1];
+      
+      var layout = {
+        title: "Bar Chart",
+        xaxis: { title: "Dates"},
+        yaxis: { title: "Rainfall in inches"}
+      };
+      
+      Plotly.newPlot("linechart", data, layout);
+  })
+}
 
-//     var data = [
-//       {
-//         domain: { x: [0, 1], y: [0, 1] },
-//         value: frequency,
-//         title: { text: "Belly Button Washing Frequency <br> Scrubs per Week"},
-//         gauge: {axis: { range: [0, 9]}, bar: { color : "SteelBlue "},},
-//         type: "indicator",
-//         mode: "gauge+number"
-//       }
-//     ];
-    
-//     var layout = { width: 600, height: 500, margin: { t: 0, b: 0 } };
-//     Plotly.newPlot("gauge", data, layout);  });
-// }
-
-
+buildLine("Mendocino Complex");
 
 function Init(){
     console.log("Initializing Screen");
@@ -70,9 +74,7 @@ function Init(){
     var selector = d3.select("#selDataset");
 
     d3.json("/wildfireTable").then(function(data){    
-      // grab the sample information and store it in samples array
-      // samples = data.samples;
-      //metaData = data.metadata;
+    
 
       // grab the sample id names and store them in sampleNames array
         var fireNames = data.map(d => d.firename);
@@ -85,14 +87,9 @@ function Init(){
               .property("value", fire);
         });
     });  
-    // // Draw a bargraph
-    // DrawBargraph(sampleNames[0]);
-
-    // // Draw a bubble chart
-    // DrawBubbleChart(sampleNames[0]);
-
-    // // Draw the metadata
+    
     ShowMetadata(fire);
+    buildLine(fire);
 
     // // Draw the gadge
     // DrawGauge(sampleNames[0]);

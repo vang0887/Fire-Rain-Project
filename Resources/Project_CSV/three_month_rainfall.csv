@@ -1,19 +1,19 @@
-reading,rainfall,county,fire_name
-2018-04-28,0.07,Mendocino,Mendocino
-2018-04-29,0.12,Mendocino,Mendocino
-2018-05-01,0.12,Mendocino,Mendocino
-2018-05-04,0.12,Mendocino,Mendocino
-2018-05-05,0.08,Mendocino,Mendocino
-2018-05-08,0.06,Mendocino,Mendocino
-2018-05-17,0.06,Mendocino,Mendocino
-2018-05-18,0.13,Mendocino,Mendocino
-2018-05-20,0.1,Mendocino,Mendocino
-2018-05-22,0.08,Mendocino,Mendocino
-2018-05-26,0.08,Mendocino,Mendocino
-2018-05-27,0.11,Mendocino,Mendocino
-2018-05-28,0.06,Mendocino,Mendocino
-2018-05-30,0.09,Mendocino,Mendocino
-2018-06-04,0.1,Mendocino,Mendocino
+reading,rainfall,county,firename
+2018-04-28,0.07,Mendocino,Mendocino Complex
+2018-04-29,0.12,Mendocino,Mendocino Complex
+2018-05-01,0.12,Mendocino,Mendocino Complex
+2018-05-04,0.12,Mendocino,Mendocino Complex
+2018-05-05,0.08,Mendocino,Mendocino Complex
+2018-05-08,0.06,Mendocino,Mendocino Complex
+2018-05-17,0.06,Mendocino,Mendocino Complex
+2018-05-18,0.13,Mendocino,Mendocino Complex
+2018-05-20,0.1,Mendocino,Mendocino Complex
+2018-05-22,0.08,Mendocino,Mendocino Complex
+2018-05-26,0.08,Mendocino,Mendocino Complex
+2018-05-27,0.11,Mendocino,Mendocino Complex
+2018-05-28,0.06,Mendocino,Mendocino Complex
+2018-05-30,0.09,Mendocino,Mendocino Complex
+2018-06-04,0.1,Mendocino,Mendocino Complex
 2017-10-13,0.08,Ventura,Thomas
 2002-11-08,0.4,San Diego,Cedar
 2002-11-09,0.75,San Diego,Cedar
@@ -61,21 +61,21 @@ reading,rainfall,county,fire_name
 2018-07-15,0.15,Shasta,Carr
 2007-09-20,0.07,San Diego,Witch
 2007-09-28,0.06,San Diego,Witch
-2008-03-24,0.06,Siskiyou,Klamath
-2008-03-27,0.09,Siskiyou,Klamath
-2008-04-22,0.06,Siskiyou,Klamath
-2008-04-23,0.5,Siskiyou,Klamath
-2008-05-26,0.25,Siskiyou,Klamath
-2008-05-27,1.16,Siskiyou,Klamath
-2008-05-28,0.35,Siskiyou,Klamath
-2008-05-29,0.12,Siskiyou,Klamath
-2008-04-02,0.24,Monterey,Basin
-2008-04-03,0.13,Monterey,Basin
+2008-03-24,0.06,Siskiyou,Klamath Theater Complex
+2008-03-27,0.09,Siskiyou,Klamath Theater Complex
+2008-04-22,0.06,Siskiyou,Klamath Theater Complex
+2008-04-23,0.5,Siskiyou,Klamath Theater Complex
+2008-05-26,0.25,Siskiyou,Klamath Theater Complex
+2008-05-27,1.16,Siskiyou,Klamath Theater Complex
+2008-05-28,0.35,Siskiyou,Klamath Theater Complex
+2008-05-29,0.12,Siskiyou,Klamath Theater Complex
+2008-04-02,0.24,Monterey,Basin Complex
+2008-04-03,0.13,Monterey,Basin Complex
 2018-10-02,0.11,Butte,Camp
 2018-10-03,0.54,Butte,Camp
 2002-04-26,0.67,Tulare,McNally
 2002-05-20,0.07,Tulare,McNally
 2002-05-21,0.11,Tulare,McNally
-1999-06-03,0.11,Trinity,BigBarComplex
-1999-08-07,0.2,Trinity,BigBarComplex
-1999-08-11,0.07,Trinity,BigBarComplex
+1999-06-03,0.11,Trinity,Big Bar Complex
+1999-08-07,0.2,Trinity,Big Bar Complex
+1999-08-11,0.07,Trinity,Big Bar Complex

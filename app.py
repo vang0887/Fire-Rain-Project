@@ -25,8 +25,10 @@ Base.prepare(engine, reflect = True)
 ## Table Variable Creation
 yearRainfall = Base.classes.year_rainfall
 
-Rainfall = Base.classes.rainfall
+yearlyRainfall = Base.classes.year_rainfall
+Rainfall = Base.classes.three_month_rainfall
 WildFire = Base.classes.largestfires
+
 #################################################
 # Flask Setup
 #################################################
@@ -65,6 +67,50 @@ def json():
 
     return year_rainfall
 
+@app.route("/3monthsRain")
+def rainmonth():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    # Query all passengers
+    results = session.query(Rainfall.reading ,Rainfall.rainfall,Rainfall.county, Rainfall.firename).all()
+
+    session.close()
+
+    # Create a dictionary from the row data and append to a list of all_passengers
+    all_rain3 = []
+    for reading,rainfall,county,firename  in results:
+        rain3_dict = {}
+        rain3_dict["reading"] = reading
+        rain3_dict["rainfall"] = rainfall
+        rain3_dict["county"] = county
+        rain3_dict["firename"] = firename
+        all_rain3.append(rain3_dict)
+
+    return jsonify(all_rain3)
+
+@app.route("/1yearRain")
+def rainyear():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+
+    # Query all passengers
+    results = session.query(yearlyRainfall.reading ,yearlyRainfall.rainfall,yearlyRainfall.county, yearlyRainfall.firename).all()
+
+    session.close()
+
+    # Create a dictionary from the row data and append to a list of all_passengers
+    all_rain1 = []
+    for reading,rainfall,county,firename  in results:
+        rain1_dict = {}
+        rain1_dict["reading"] = reading
+        rain1_dict["rainfall"] = rainfall
+        rain1_dict["county"] = county
+        rain1_dict["firename"] = firename
+        all_rain1.append(rain1_dict)
+
+    return jsonify(all_rain1)
+
 @app.route("/geomap")
 def map():
 
@@ -89,15 +135,14 @@ def fire_name():
     session = Session(engine)
 
     # Query all passengers
-    results = session.query(WildFire.index ,WildFire.firename, WildFire.county, WildFire.acres, WildFire.hectares,WildFire.startdate, WildFire.structures, WildFire.deaths).all()
+    results = session.query(WildFire.firename, WildFire.county, WildFire.acres, WildFire.hectares,WildFire.startdate, WildFire.structures, WildFire.deaths).all()
 
     session.close()
 
     # Create a dictionary from the row data and append to a list of all_passengers
     all_fires = []
-    for index, firename, county, acres, hectares,startdate, structures, deaths  in results:
+    for firename, county, acres, hectares,startdate, structures, deaths  in results:
         fire_dict = {}
-        fire_dict["index"] = index
         fire_dict["firename"] = firename
         fire_dict["county"] = county
         fire_dict["acres"] = acres
@@ -108,28 +153,6 @@ def fire_name():
         all_fires.append(fire_dict)
 
     return jsonify(all_fires)
-
-# @app.route("/rainfallTable")
-# def firerain():
-#     # Create our session (link) from Python to the DB
-#     session = Session(engine)
-
-#     # Query all passengers
-#     results = session.query(Rainfall.reading ,Rainfall.rainfall, Rainfall.firename, Rainfall.county).all()
-
-#     session.close()
-
-#     # Create a dictionary from the row data and append to a list of all_passengers
-#     all_rainfire = []
-#     for reading,rainfall,firename,county in results:
-#         rainfire_dict = {}
-#         rainfire_dict["reading"] = reading
-#         rainfire_dict["rainfall"] = rainfall
-#         rainfire_dict["firename"] = firename
-#         rainfire_dict["county"] = county
-#         all_rainfire.append(rainfire_dict)
-
-#     return jsonify(all_rainfire)
 
 @app.route("/table")
 def table():
