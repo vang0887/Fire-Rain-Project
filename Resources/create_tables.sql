@@ -14,27 +14,30 @@ CREATE TABLE year_rainfall (
   reading date,
   rainfall float,
   county text,
-  fire_name text
+  firename text
 );
 
--- Create (THREE MONTH) rainfall table 
+-- Create (THREE MONTH) rainfall table  
 CREATE TABLE three_month_rainfall (
   reading date,
   rainfall float,
   county text,
-  fire_name text
+  firename text
 );
 
 
--- Add primary key
+-- 1) Import summary_rainfall.csv 
+-- 2) Add primary key
 ALTER TABLE summary_rainfall
 ADD COLUMN id SERIAL PRIMARY KEY;
 
--- Add primary key
+-- 1) Import year_rainfall.csv
+-- 2) Add primary key
 ALTER TABLE year_rainfall
 ADD COLUMN id SERIAL PRIMARY KEY;
 
--- Add primary key
+-- 1) Import three_month_rainfall.csv 
+-- 2) Add primary key
 ALTER TABLE three_month_rainfall
 ADD COLUMN id SERIAL PRIMARY KEY;
 
@@ -51,5 +54,6 @@ FROM year_rainfall;
 SELECT *
 FROM three_month_rainfall;
 
+-- run this in jupyter notebook WikiScrape first
 SELECT *
 FROM largestfires;

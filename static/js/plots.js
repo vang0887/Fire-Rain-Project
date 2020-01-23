@@ -57,9 +57,9 @@ function buildLine(fireID){
       var data = [trace1];
       
       var layout = {
-        title: "Bar Chart",
+        title: "Daily Rainfall Three Months Prior to Fire",
         xaxis: { title: "Dates"},
-        yaxis: { title: "Rainfall in inches"}
+        yaxis: { title: "Rainfall in Inches"}
       };
       
       Plotly.newPlot("linechart", data, layout);
