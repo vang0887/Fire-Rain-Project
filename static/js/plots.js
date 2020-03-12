@@ -1,7 +1,7 @@
 var svgWidth = 950;
 var svgHeight = 500;
 
-//This works now
+//Show data on selected fire
 function ShowMetadata(fireID)
 {
   
@@ -9,7 +9,6 @@ function ShowMetadata(fireID)
 
   d3.json("/wildfireTable").then((data) => {    
     
-    // var metaData = data.metadata;
     var displayData = data.filter(element => element.firename == fireID);
     var result = displayData[0];
     console.log(data);
@@ -30,20 +29,16 @@ function optionChanged(newfireID)
   console.log("Dropdown changed to: ", newfireID);
   ShowMetadata(newfireID);
   buildLine(newfireID);
-  // DrawBargraph(newSampleID);
-  // DrawBubbleChart(newSampleID);
-  // DrawGauge(newSampleID);
 }
-
+//Build line graph of rainfall (in) vs dates
 function buildLine(fireID){
   d3.json("/3monthsRain").then(function(data){
       console.log(data);
-      // var sample = data.samples;
 
       var resultArr = data.filter(element => element.firename == fireID);
-      // var result = resultArr[0];
+
       console.log(resultArr);
-      //top 10 otu
+  
 
       var readings_label  = resultArr.map(d => d.reading);
       var rainfalls = resultArr.map(d => d.rainfall);
@@ -68,6 +63,7 @@ function buildLine(fireID){
 
 buildLine("Mendocino Complex");
 
+//update dashboard when a different fire is selected
 function Init(){
     console.log("Initializing Screen");
     // Populate the dropdown box with all the IDs
@@ -76,7 +72,7 @@ function Init(){
     d3.json("/wildfireTable").then(function(data){    
     
 
-      // grab the sample id names and store them in sampleNames array
+      // grab the fire names and store them in fireNames array
         var fireNames = data.map(d => d.firename);
         console.log(fireNames)
       
@@ -90,9 +86,6 @@ function Init(){
     
     ShowMetadata(fire);
     buildLine(fire);
-
-    // // Draw the gadge
-    // DrawGauge(sampleNames[0]);
 }
 
 // initialize the page
